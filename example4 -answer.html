@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>example 1 - Responsive Images</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<figure>
+		<picture>
+		    <source srcset="https://placekitten.com/1000/800" media="(min-width: 1000px)">
+			<source srcset="https://placekitten.com/770/400" media="(min-width: 770px)">
+			<source srcset="https://placekitten.com/480/250" media="(min-width: 480px)">
+			<img src="https://placekitten.com/320/300" alt="Kitty Image" 
+			srcset="elva-fairy-320w.jpg,
+			elva-fairy-480w.jpg 1.5x,
+			elva-fairy-640w.jpg 2x">
+		</picture>
+		<figcaption>Responsive Kitty Image Here</figcaption>
+	</figure>
+
+</body>
+
+</html>
